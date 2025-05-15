@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - VICENT MARTIN MTAMBO</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">VICENT MARTIN MTAMBO</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="survey.html">Survey</a></li>
+            </ul>
+            <button id="darkModeToggle">🌙 Dark Mode</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact">
+            <h1>Contact Me</h1>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>Email: <a href="mailto:vins.m.mwakilasa@gmail.com">vins.m.mwakilasa@example.com</a></p>
+                    <p>Phone: <a href="tel:+255764581554">+255 764 581 554</a></p>
+                    
+                    <!-- UDOM CIVE Google Map Iframe -->
+                    <div class="map-container">
+                        <h3>UDOM CIVE Location</h3>
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.884072161052!2d35.7428267749553!3d-6.822730666369312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185d9a3dd0d68a6d%3A0x8e9b5a5a5e5e5e5e!2sUniversity%20of%20Dodoma%20College%20of%20Informatics%20and%20Virtual%20Education%20(CIVE)!5e0!3m2!1sen!2stz!4v1689878901234!5m2!1sen!2stz" 
+                            width="100%" 
+                            height="400" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            aria-label="Map of UDOM College of Informatics and Virtual Education">
+                        </iframe>
+                        <p class="map-directions">
+                            <strong>Directions:</strong> The College of Informatics and Virtual Education is located within 
+                            the University of Dodoma main campus, Block 7.
+                        </p>
+                    </div>
+                </div>
+                
+                <form id="contactForm" class="contact-form">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" required></textarea>
+                    
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="current-year"></span> VICENT MARTIN MTAMBO.<i> All rights reserved.</i></p>
+        <div class="social-links">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

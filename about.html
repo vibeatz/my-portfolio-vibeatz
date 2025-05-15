@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - VICENT MARTIN MTAMBO</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">VICENT MARTIN MTAMBO</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="survey.html">Survey</a></li>
+            </ul>
+            <button id="darkModeToggle">🌙 Dark Mode</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about">
+            <h1>About Me</h1>
+            
+            <!-- Image Map Section -->
+            <div class="image-map-container">
+                <h2>My Skills Map</h2>
+                <img src="images/skills-map.jpg" alt="Skills Visualization" usemap="#skillsmap">
+                
+                <map name="skillsmap">
+                    <!-- Circular area over HTML skill -->
+                    <area shape="circle" coords="100,150,50" href="projects.html#html" alt="HTML Projects" title="View HTML Projects">
+                    
+                    <!-- Rectangular area over CSS skill -->
+                    <area shape="rect" coords="200,100,300,200" href="projects.html#css" alt="CSS Projects" title="View CSS Projects">
+                    
+                    <!-- Polygonal area over JavaScript skill -->
+                    <area shape="poly" coords="350,150,400,100,450,150,400,200" href="projects.html#javascript" alt="JavaScript Projects" title="View JavaScript Projects">
+                </map>
+                <p>Click on different areas of the image to see related projects</p>
+            </div>
+            
+            <div class="bio">
+                <h2>Who I Am</h2>
+                <p>I'm a passionate web developer with expertise in front-end technologies.</p>
+                
+                <h2>My Skills</h2>
+                <ul>
+                    <li>HTML5 & CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> VICENT MARTIN MTAMBO.<i> All rights reserved.</i></p>
+        <div class="social-links">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

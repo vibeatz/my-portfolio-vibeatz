@@ -1,0 +1,24 @@
+@media print{
+    body{
+        font-size:12pt;
+        color:black;
+        background:white;
+    }
+    nav,footer,.theme-toggle{
+        display:none;
+    }
+    .resume iframe{
+        height:100vh;
+
+    }
+
+    a::after{
+        content:"("attr(href)")";
+        font-size:0.8em;
+        font-weight:normal;
+    }
+    .linki article, .proj-card{
+     break-inside:avoid;
+     margin-bottom:1rem;
+    }
+}
