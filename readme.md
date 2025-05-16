@@ -26,3 +26,5 @@ A responsive personal portfolio website showcasing my skills, projects, and cont
 ## Deployment
 The site can be deployed to any static hosting service like:
 - GitHub Pages
+##This site is live at
+https://vibeatz.github.io/my-portfolio-vibeatz/index.html
